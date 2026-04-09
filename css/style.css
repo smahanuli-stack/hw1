@@ -1,0 +1,55 @@
+/* Тело страницы */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    background-color: #f4f4f4;
+}
+
+/* Заголовок */
+header {
+    background-color: #333;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 15px;
+}
+
+/* Навигация */
+nav {
+    background-color: #555;
+    padding: 10px;
+}
+
+/* Главная секция */
+.main {
+    background-color: #fff;
+    font-size: 18px;
+    padding: 20px;
+}
+
+/* Нижний колонтитул */
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Список */
+li {
+    display: inline-block;
+    width: 120px;
+    margin: 5px;
+}
+
+/* Заголовок h1 */
+h1 {
+    text-align: center;
+    font-family: "Georgia", serif;
+    color: #444;
+}
+
+/* Абзацы */
+p {
+    line-height: 1.6;
+}
