@@ -27,4 +27,56 @@ nav img {
 }
 
 /* Главная секция */
-.main
+.main {
+    background-color: #fff;
+    font-size: 18px;
+    padding: 20px;
+}
+
+/* Нижний колонтитул */
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Список */
+/* li {
+    display: inline-block;
+    width: 120px;
+    margin: 5px;
+} */
+
+/* Заголовок h1 */
+h1 {
+    text-align: center;
+    font-family: "Georgia", serif;
+    color: #444;
+}
+
+/* Абзацы */
+p {
+    line-height: 1.6;
+}
+
+/* Grid */
+.grid {
+    display: grid;
+    grid-template-columns: 40% 40%;   /* две колонки по ~40% */
+    justify-content: center;          /* выравнивание по горизонтали */
+    align-items: start;               /* выравнивание по вертикали */
+    row-gap: 20px;                    /* расстояние между строками */
+}
+
+/* Только изображения внутри grid */
+.grid img {
+    width: 100%;                      /* картинки занимают всю ширину колонки */
+}
+
+/* Flex */
+.flex {
+    display: flex;                    /* включаем flex */
+    flex-wrap: wrap;                  /* перенос элементов на новую строку */
+    justify-content: space-around;    /* равномерное распределение */
+}
